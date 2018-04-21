@@ -3,7 +3,9 @@ import json
 import time
 import requests
 
-icon = '/home/sagunsh/Downloads/bitcoin.jpeg'
+icon = '/path/to/icon/someicon.jpg'
+# for e.g.
+# icon = '/home/images/icon.jpg'
 api_url = 'https://api.coinmarketcap.com/v1/ticker/bitcoin/'
 
 def start_with_dollar(value):
