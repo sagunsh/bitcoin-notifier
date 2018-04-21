@@ -6,7 +6,7 @@ A desktop notifier that notifies bitcoin price in USD ($).
 
 Clone the repository
 
-    $ git clone <url>
+    $ git clone https://github.com/sagunsh/bitcoin-notifier.git
     $ cd bitcoin-notifier
 
 ## Prerequisites
