@@ -14,8 +14,8 @@ Clone the repository
 You will need to have `Python 3` installed in your device to run the code. You can get one [here](https://www.python.org/downloads/).
 
 ### Libraries
-* notify2 : to implement the desktop notifier
-* requests : to get the latest bitcoin price
+* [notify2](http://notify2.readthedocs.io/en/latest/) : to implement the desktop notifier
+* [requests](http://docs.python-requests.org/en/master/) : to get the latest bitcoin price
 
 You don't have to worry about installing these libraries as I have created a `requirements.txt` file. Here's the command to install these dependencies:
 
@@ -36,3 +36,5 @@ Another way and probably the better way to install these dependencies is using `
     $ python3 main.py
     
 You will see a notification on the top-right corner of your screen. It will appear for around 10 seconds and will be show pop every 1 minute. You can change the parameters.
+
+There is a good chance you will see some error related to dbus. Here is a [stackoverflow thread](https://stackoverflow.com/questions/13365697/install-python-dbus-in-virtualenv) that helped me get rid of that error.
